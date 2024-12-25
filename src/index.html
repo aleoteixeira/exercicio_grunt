@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="/dist/css/styles.min.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bem-vindo à Galeria de Imagens</h1>
+    </header>
+    <main>
+      <p>Esta é uma galeria de imagens gerada com Grunt .</p>
+      <div class="carousel-container">
+        <img id="carousel" src="" alt="Carrossel de Imagens" width="600" />
+        <div class="carousel-buttons">
+          <button onclick="prevImage()">Anterior</button>
+          <button onclick="nextImage()">Próximo</button>
+        </div>
+      </div>
+      <button onclick="showAlert('Olá!')">Clique aqui</button>
+    </main>
+    <script src="/dist/js/scripts.min.js"></script>
+  </body>
+</html>
